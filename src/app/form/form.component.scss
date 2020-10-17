@@ -1,0 +1,64 @@
+$align: center;
+$color_black: black;
+
+.container {
+  width: 100%;
+  padding: 5%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.contact-info {
+  border: 0.5px $color_black;
+}
+
+@mixin text {
+  text-align: center;
+}
+
+@mixin margin {
+  margin-right: 20px;
+}
+
+@mixin field {
+  margin-bottom: 10px;
+}
+
+.container_in {
+  @include text();
+}
+
+.message {
+  @include text();
+}
+
+.radio_1 {
+  @include margin();
+}
+
+.radio_2 {
+  @include margin();
+}
+
+.radio_3 {
+  @include margin();
+}
+.field {
+  @include margin();
+}
+
+.name {
+  @include field();
+}
+
+.email {
+  @include field();
+}
+
+.review {
+  @include field();
+}
+
+.comment {
+  @include field();
+}

@@ -1,0 +1,28 @@
+$color_green: green;
+$color_white: white;
+$color_black: black;
+$color_red: red;
+
+.example-spacer {
+  flex: 1 1 auto;
+  color: $color_red;
+}
+.link {
+  color: $color_white;
+  background-color: $color_black;
+  text-underline: none;
+}
+.link:hover {
+  color: blue;
+}
+.mat-toolbar.mat-toolbar-primary {
+  background: #ff000de3;
+  color: $color_white;
+}
+.mat-toolbar {
+  min-height: 50px;
+  background-color: $color_green;
+}
+.header {
+  background-color: #007bff;
+}
